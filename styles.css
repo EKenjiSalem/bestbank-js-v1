@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+      display: block;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 25px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    margin-top: 25px;
+    background: #FFD18C;
+    padding: 20px;
+}
+
+.nav-list {
+    font-size: 1.2rem;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.main-btn-1 {
+    padding: .7rem 5.5rem;
+    border: 2px solid #FFD18C;
+    border-radius: 2rem;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main-btn-1:hover {
+    background: #FFD18C;
+    border: 2px solid #ff5d0c;;
+}
+
+.main-btn-2 {
+    padding: .7rem 4rem;
+    border: 2px solid #FFD18C;
+    border-radius: 2rem;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.main-btn-2:hover {
+    background: #FFD18C;
+    border: 2px solid #ff5d0c;;
+}
+
+.column-wrapper {
+    display: flex; 
+    margin: 0;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.account-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    margin-left: 20rem;
+}
+
+.account-list {
+    margin-left: 20rem;
+}
+
+
+.account-list-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background: #FFD18C;
+    border: 2px solid #ff5d0c;
+    border-radius: .5rem;
+    margin-left: 20rem;
+}
+
+.main-account {
+    margin-left: auto
+}
+
+
+.account-list-expenses {
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5rem;
+    padding: 15px;
+    border: 2px solid #ff5d0c;
+    border-radius: .5rem;
+    margin-left: 20rem;
+}
+
+.main-expenses {
+    margin-left: auto;
+}
+
+
+.account-list-savings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    padding: 15px;;
+    border: 2px solid #ff5d0c;
+    border-radius: .5rem;
+    margin-left: 20rem;
+}
+
+.main-savings {
+    margin-left: auto;
+}
+
+
+.spendings-title {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+
+.spend-rent-list {
+    display: flex;
+    border-radius: .5rem;
+    background: #FFD18C;
+    padding: .5rem 3rem;
+    width: 80%
+}
+
+.spend-rent {
+   margin-left: auto;
+}
+
+.spend-groceries-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    border-radius: .5rem;
+    background: #FFD18C;
+    padding: .5rem 3rem;
+    width: 65%;
+}
+
+.spend-groceries {
+    margin-left: auto;
+}
+
+.spend-restaurants-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    border-radius: .5rem;
+    background: #FFD18C;
+    padding: .5rem 3rem;
+    width: 55%;
+}
+
+.spend-restaurants {
+    margin-left: auto;
+}
+
+
+.spend-transport-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: .5rem;
+    border-radius: .5rem;
+    background: #FFD18C;
+    padding: .5rem 3rem;
+    width: 45%;
+}
+
+.spend-transport {
+    margin-left: auto;
+}
+
+.spend-internet-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    border-radius: .5rem;
+    background: #FFD18C;
+    padding: .5rem 3rem;
+    width: 40%;
+}
+
+.spend-internet {
+    margin-left: auto;
+}
+
+
+
